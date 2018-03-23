@@ -29,7 +29,7 @@ final String name = "Amit Shekhar";
 > Clojure
 
 ```clojure
-(def- name "Amit Shekhar")
+(def ^:private name "Amit Shekhar")
 (def name "Amit Shekhar")
 ```
 
